@@ -1,0 +1,25 @@
+{
+    "dataset": "ali-ccp",
+    
+    "num_trials": 3,
+    "num_epochs": 5,
+    "valid_patience": 3,
+
+    "batch_size": 8192,
+    "gpu_num": 0,
+    "embedding_size": 5,
+    "latent_dim_multiplier": 5,
+    
+    "mlp_dims": [512, 256, 128],
+    "lr": 1e-4,
+    "wd": 1e-6,
+    "l2_reg": 0.0,
+    "dropout": 0.0,
+    
+    "backbone_model": "mlp",
+    "cvr_f_loss_weight": 0.1,
+    "cvr_cf_loss_weight": 0.0001,
+    "train_models": ["our"],
+
+    "labeling_method": "max"
+}

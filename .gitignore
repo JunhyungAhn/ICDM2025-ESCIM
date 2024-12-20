@@ -1,0 +1,6 @@
+/Ali_CCP/data/*
+/Ali_Express/data/*
+__pycache__/*
+*.pyc
+
+tmp.ipynb

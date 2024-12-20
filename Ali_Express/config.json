@@ -1,0 +1,23 @@
+{
+  "num_trials": 3,
+  "num_epochs": 15,
+  "valid_patience": 3,
+
+  "batch_size": 8192,
+  "gpu_num": 0,
+  "embedding_size": 32,
+  "latent_dim_multiplier": 32,
+  
+  "mlp_dims": [64, 64, 32],
+  "lr": 1e-4,
+  "wd": 1e-6,
+  "l2_reg": 1e-4,
+  "dropout": 0.1,
+  
+  "backbone_model": "mlp",
+  "cvr_f_loss_weight": 0.1,
+  "cvr_cf_loss_weight": 0.0001,
+  "train_models": ["escm2-dr"],
+
+  "labeling_method": "max"
+}
