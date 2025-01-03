@@ -75,7 +75,7 @@ Step-by-step instructions on how to set up the environment and install dependenc
 
 ```sh
 # Example installation commands
-git clone https://github.com/JuhyungAhn/ESCIM.git
+git clone {git url}
 pip install -r requirements.txt
 ```
 
