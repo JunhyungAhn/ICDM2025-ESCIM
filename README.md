@@ -17,7 +17,7 @@ Extensive experiments on public datasets illustrate the superiority of the propo
 
 
 ## Framework
-![Entire Space Counterfactual Inference Multi-task Model](./ESCIM.pdf)
+![Entire Space Counterfactual Inference Multi-task Model](./ESCIM.png)
 
 
 ## Experimental Results
