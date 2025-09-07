@@ -75,7 +75,7 @@ Step-by-step instructions on how to set up the environment and install dependenc
 
 ```sh
 # Example installation commands
-git clone {git url}
+git clone https://github.com/JunhyungAhn/ICDM2025-ESCIM.git
 pip install -r requirements.txt
 ```
 
